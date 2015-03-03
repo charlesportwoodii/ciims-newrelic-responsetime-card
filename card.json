@@ -1,0 +1,27 @@
+{
+    "name": "NewRelicResponseTimeCard",
+    "description": "A card to display NewRelic information",
+    "version": "0.0.1",
+    "image": "card.png",
+    "footerText": "NewRelic Average Server Response Time",
+    "properties": {
+    	"nrapdex_API_key": {
+            "name": "NewRelic API Key",
+            "type": "text",
+            "value": null
+        },
+        "nrapdex_app_id": {
+            "name": "NewRelic Application ID",
+            "type": "text",
+            "value": null
+        },
+        "nrapdex_dts": {
+            "name": "Number of Days to Show",
+            "type": "number",
+            "value": 3
+        }
+    },
+    "availableTileSizes": [
+        "rectangle"
+    ]
+}

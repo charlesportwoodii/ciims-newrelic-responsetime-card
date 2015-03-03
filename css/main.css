@@ -1,0 +1,34 @@
+-main- {
+	font-family: "Open Sans";
+}
+
+.configwarning {
+	margin: 0 auto;
+	text-align: center;
+	display: none;
+	position: relative;
+	top: 80px;
+	font-size: 12px;
+}
+
+.average {
+	position: relative;
+	top: 25px;
+	left: 50px;
+	font-size: 30px;
+}
+
+.minmax {
+	position: relative;
+	left: 35%;
+	top: -6px;
+	font-size: 12px;
+}
+
+.newrelicresponsetimechart {
+	position: relative;
+	top: -59px;
+	left: 11px;
+	width: 470px;
+	height: 200px;
+}
